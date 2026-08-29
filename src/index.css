@@ -183,3 +183,79 @@ a {
     gap: 12px;
   }
 }
+
+/* Book Details Page */
+
+.details-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.details-card {
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  display: flex;
+  gap: 40px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.details-cover {
+  width: 250px;
+  height: 350px;
+  background: #e5e7eb;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  flex-shrink: 0;
+}
+
+.details-content {
+  padding-top: 10px;
+}
+
+.book-category {
+  color: #2563eb;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.details-content h1 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+.details-content h3 {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.rating {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 700px) {
+  .details-card {
+    flex-direction: column;
+  }
+
+  .details-cover {
+    width: 100%;
+    height: 250px;
+  }
+
+  .details-content h1 {
+    font-size: 30px;
+  }
+}
