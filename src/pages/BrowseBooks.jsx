@@ -32,6 +32,12 @@ function BrowseBooks() {
           onChange={(e) => setSearch(e.target.value)}
           className="search-input"
         />
+         <button
+           onClick={() => setSearch("")}
+        className="clear-search"
+>
+  Clear Search
+</button>
       </section>
 
       {filteredBooks.length === 0 ? (
