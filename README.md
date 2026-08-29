@@ -30,4 +30,8 @@ A responsive Online Library System built using React and Vite.
 Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git https://github.com/baburao745/library-system.git
+
+## GitHub Repository 
+[View the project on GitHub](https://github.com/baburao745/library-system.git)
+
