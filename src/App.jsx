@@ -11,6 +11,8 @@ function App() {
   return (
     <>
       <Header />
+      {/*Main application routes*/}
+      {/* Each route displays a different library page */}
 
       <Routes>
         <Route path="/" element={<Home />} />
